@@ -231,11 +231,11 @@ h5, h6 {
 /*hasta acá va galeria.html*/
 .dona {
   width: 90%;
-  margin-top: 10%;
+  margin-top: 3%;
   margin-left: 10%;
   text-align: left;
   font-size: 2.5em;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
   font-family: "Poiret One", cursive; }
 
 .dona img {
@@ -257,7 +257,8 @@ h5, h6 {
   width: 600px;
   float: left;
   padding-right: 100px;
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   animation-duration: 3s;
   animation-name: fade; }
 
@@ -267,26 +268,34 @@ h5, h6 {
   100% {
     opacity: 1; } }
 
+.dona__text--1 {
+  font-size: 0.5em;
+  display: inline-block;
+  overflow: hidden;
+  height: 300px;
+  width: 600px;
+  float: right;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  animation-duration: 3s;
+  animation-name: fade; }
+
 .dona__pago {
   text-align: center;
   padding: 30px;
   font-size: 2em;
   margin: 5em; }
 
-h3 {
-  font-family: "Poiret One", cursive;
-  padding-bottom: 1em;
-  font-size: 3em; }
-
 /*hasta acá va dona.html*/
 @media only screen and (max-width: 768px) {
   .logo {
     padding-top: 1em; }
   .logo__img {
-    width: 10em;
-    height: 10em; }
+    width: 7em;
+    height: 7em; }
   .menu ul {
-    font-size: 0.7em; }
+    font-size: 0.9em; }
   .menu__item {
     padding: 0.2em; }
   #main__carousel {
@@ -309,7 +318,7 @@ h3 {
   .site__footer [class^=col-] {
     margin-bottom: 30px; }
   .menu {
-    font-size: 0.9em; }
+    font-size: 2em; }
   #main__carousel {
     width: 90%;
     height: 25em;

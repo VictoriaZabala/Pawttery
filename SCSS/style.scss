@@ -280,11 +280,11 @@ grid-row-end: 13;
 
 .dona {
 width: 90%;
-margin-top: 10%;
+margin-top: 3%;
 margin-left: 10%;
 text-align: left;
 font-size: weight(l);
-margin-bottom: 10%;
+margin-bottom: 3%;
 font-family: $font-type;
 }
 
@@ -311,7 +311,8 @@ height: 300px;
 width: 600px;
 float: left;
 padding-right: 100px;
-padding-top: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
 animation-duration: 3s;
 animation-name: fade;
 }
@@ -324,6 +325,20 @@ opacity: 0;	}
 opacity: 1;	}
 }
 
+.dona__text--1 {
+font-size: weight(xxxs);
+display:inline-block;
+overflow: hidden;
+height: 300px;
+width: 600px;
+float: right;
+padding-right: 100px;
+padding-top: 10px;
+padding-bottom: 10px;
+animation-duration: 3s;
+animation-name: fade;
+}
+
 .dona__pago {
 text-align: center;
 padding: 30px;
@@ -331,11 +346,6 @@ font-size: weight(m);
 margin: 5em;
 }
 
-h3 {
-font-family: $font-type;
-padding-bottom: 1em;
-font-size: weight(xl);
-}
 /*hasta acá va dona.html*/
 
 
@@ -345,12 +355,12 @@ padding-top: 1em;
 }
 
 .logo__img {
-width: 10em;
-height: 10em;
+width: 7em;
+height: 7em;
 }
 
 .menu ul {
-font-size: 0.7em;
+font-size: weight(xxs);
 
 }
 
@@ -385,7 +395,7 @@ text-align:center; }
 margin-bottom:30px }
 
 .menu {
-font-size: weight(xxs);
+font-size: weight(m);
 }
 #main__carousel {
 width: 90%;
