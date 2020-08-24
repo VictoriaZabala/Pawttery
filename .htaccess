@@ -1,3 +1,4 @@
+Options All -Indexes
 ErrorDocument 404 /404.html
 
 # php -- BEGIN cPanel-generated handler, do not edit
