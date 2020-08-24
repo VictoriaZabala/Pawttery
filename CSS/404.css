@@ -1,9 +1,9 @@
 .error-container {
   text-align: center;
-  font-size: 106px;
+  font-size: 6.625em;
   font-family: 'Poiret One', cursive;
   font-weight: 800;
-  margin: 70px 15px;
+  margin: 4.4em 0.95em;
 }
 .error-container > span {
   display: inline-block;
