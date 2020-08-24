@@ -1,7 +1,7 @@
 .error-container {
   text-align: center;
   font-size: 106px;
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Poiret One', cursive;
   font-weight: 800;
   margin: 70px 15px;
 }
@@ -98,12 +98,12 @@ body {
   margin-bottom: 50px;
 }
 html, button, input, select, textarea {
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: 'Poiret One', cursive;
   color: #bbb;
 }
 h1 {
   text-align: center;
-  margin: 30px 15px;
+  margin: 3em 2em;
 }
 .zoom-area {
   max-width: 490px;
@@ -116,7 +116,7 @@ h1 {
 }
 a.more-link {
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 2em;
   background-color: #de7e85;
   padding: 10px 15px;
   border-radius: 0;
