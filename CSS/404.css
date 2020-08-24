@@ -1,9 +1,9 @@
 .error-container {
   text-align: center;
-  font-size: 6.625em;
+  font-size: 7em;
   font-family: 'Poiret One', cursive;
-  font-weight: 800;
-  margin: 4.4em 0.95em;
+  font-weight: 2em;
+  margin: 70px 15px;
 }
 .error-container > span {
   display: inline-block;
@@ -105,26 +105,20 @@ h1 {
   text-align: center;
   margin: 3em 2em;
 }
-.zoom-area {
-  max-width: 490px;
-  margin: 30px auto 30px;
-  font-size: 19px;
-  text-align: center;
-}
+
 .link-container {
   text-align: center;
 }
 a.more-link {
-  text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.5em;
   background-color: #de7e85;
   padding: 10px 15px;
-  border-radius: 0;
+  border-radius: 5px;
   color: #fff;
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 5px;
-  line-height: 1.5;
+  line-height: 1.5em;
   text-decoration: none;
   margin-top: 50px;
   letter-spacing: 1px;
