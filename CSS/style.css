@@ -169,7 +169,7 @@ h5, h6 {
   object-fit: cover;
   display: block;
   box-shadow: 0px 2px 3px 0px grey;
-  border-radius: 3px;
+  border-radius: 5px;
   transition: .2s all; }
 
 .gallery:hover .gallery__photo:hover {
