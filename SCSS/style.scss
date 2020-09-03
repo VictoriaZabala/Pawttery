@@ -290,17 +290,19 @@ grid-row-end: 7;
 /*hasta acá va galeria.html*/
 
 .dona {
-width: 90%;
-margin-top: 3%;
-margin-left: 10%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+grid-gap: 1em;
+margin-top: 1em;
+margin-left: 1em;
+margin-right: 1em;
 text-align: left;
 font-size: weight(l);
-margin-bottom: 3%;
 font-family: $font-type;
 }
 
 .dona img {
-height: 300px;
 animation-duration: 5s;
 animation-name: fade;
 }
@@ -316,16 +318,10 @@ opacity: 1;	}
 
 .dona__text {
 font-size: weight(xxxs);
-display:inline-block;
-overflow: hidden;
-height: 300px;
-width: 600px;
-float: left;
-padding-right: 100px;
-padding-top: 10px;
-padding-bottom: 10px;
 animation-duration: 3s;
 animation-name: fade;
+text-align: center;
+align-self: center;
 }
 
 @keyframes fade {
@@ -336,19 +332,6 @@ opacity: 0;	}
 opacity: 1;	}
 }
 
-.dona__text--1 {
-font-size: weight(xxxs);
-display:inline-block;
-overflow: hidden;
-height: 300px;
-width: 600px;
-float: right;
-
-padding-top: 10px;
-padding-bottom: 10px;
-animation-duration: 3s;
-animation-name: fade;
-}
 
 .dona__pago {
 text-align: center;

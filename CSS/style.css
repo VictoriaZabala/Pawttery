@@ -239,16 +239,18 @@ h5, h6 {
 
 /*hasta acá va galeria.html*/
 .dona {
-  width: 90%;
-  margin-top: 3%;
-  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
   text-align: left;
   font-size: 2.5em;
-  margin-bottom: 3%;
   font-family: "Poiret One", cursive; }
 
 .dona img {
-  height: 300px;
   animation-duration: 5s;
   animation-name: fade; }
 
@@ -260,34 +262,16 @@ h5, h6 {
 
 .dona__text {
   font-size: 0.5em;
-  display: inline-block;
-  overflow: hidden;
-  height: 300px;
-  width: 600px;
-  float: left;
-  padding-right: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   animation-duration: 3s;
-  animation-name: fade; }
+  animation-name: fade;
+  text-align: center;
+  align-self: center; }
 
 @keyframes fade {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
-.dona__text--1 {
-  font-size: 0.5em;
-  display: inline-block;
-  overflow: hidden;
-  height: 300px;
-  width: 600px;
-  float: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  animation-duration: 3s;
-  animation-name: fade; }
 
 .dona__pago {
   text-align: center;
