@@ -27,17 +27,17 @@ justify-content: space-between;
 }
 
 .logo {
-padding-top: 1.7em;
+padding-top: 1em;
 }
 
 .logo__img {
-width: 10em;
-height: 10em;
+width: 9em;
+height: 9em;
 }
 
 .menu ul {
 font-family: $font-type;
-font-size: weight(l);
+font-size: weight(m);
 list-style: none;
 display: inline-flex;
 justify-content: flex-end;
@@ -358,7 +358,7 @@ height: 7em;
 }
 
 .menu ul {
-font-size: weight(xxs);
+font-size: weight(xxxs);
 
 }
 

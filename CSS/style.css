@@ -17,15 +17,15 @@
   justify-content: space-between; }
 
 .logo {
-  padding-top: 1.7em; }
+  padding-top: 1em; }
 
 .logo__img {
-  width: 10em;
-  height: 10em; }
+  width: 9em;
+  height: 9em; }
 
 .menu ul {
   font-family: "Poiret One", cursive;
-  font-size: 2.5em;
+  font-size: 2em;
   list-style: none;
   display: inline-flex;
   justify-content: flex-end;
@@ -290,7 +290,7 @@ h5, h6 {
     width: 7em;
     height: 7em; }
   .menu ul {
-    font-size: 0.9em; }
+    font-size: 0.5em; }
   .menu__item {
     padding: 0.2em; }
   #main__carousel {
