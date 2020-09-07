@@ -256,7 +256,7 @@ h5, h6 {
   margin-left: 1em;
   margin-right: 1em;
   text-align: left;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-family: "Poiret One", cursive; }
 
 .dona img {
@@ -270,7 +270,6 @@ h5, h6 {
     opacity: 1; } }
 
 .dona__text {
-  font-size: 0.5em;
   animation-duration: 3s;
   animation-name: fade;
   text-align: center;
@@ -282,11 +281,50 @@ h5, h6 {
   100% {
     opacity: 1; } }
 
-.dona__pago {
+.dona__h3 {
   text-align: center;
-  padding: 30px;
+  margin-top: 3em;
+  margin-bottom: 3em; }
+
+.dona__pago {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+  text-align: center;
   font-size: 2em;
-  margin: 5em; }
+  margin: 2em 1em; }
+
+.dona__1 {
+  align-self: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2; }
+
+.dona__2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3; }
+
+.dona__3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.dona__paypal--img {
+  width: 12em;
+  margin-right: .5em; }
+
+.dona__tb--img {
+  align-self: center;
+  transition: transform .5s ease; }
+
+.dona__tb--img:hover {
+  transform: scale(1.3);
+  border: 1px solid; }
 
 /*hasta acá va dona.html*/
 @media only screen and (max-width: 768px) {
@@ -303,7 +341,14 @@ h5, h6 {
     width: 100%;
     height: 25em; }
   .index__text {
-    font-size: 1.1em; } }
+    font-size: 1.1em; }
+  .dona {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+    margin-top: 5em;
+    font-size: 1.5em; } }
 
 @media (max-width: 1024px) {
   .site__footer [class^=col-] {
