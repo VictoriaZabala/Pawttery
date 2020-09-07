@@ -129,7 +129,7 @@ h2 {
   flex-direction: column; }
 
 .productos {
-  padding: 5em;
+  padding: 2em;
   display: flex;
   flex-wrap: wrap; }
 
@@ -150,6 +150,12 @@ h5, h6 {
   animation-duration: 1s;
   animation-name: compra;
   animation-fill-mode: forwards; }
+
+@keyframes compra {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0.2; } }
 
 @keyframes compra {
   0% {
@@ -293,21 +299,11 @@ h5, h6 {
     font-size: 0.5em; }
   .menu__item {
     padding: 0.2em; }
-  #main__carousel {
-    width: 80%;
-    height: 25em;
-    margin-bottom: 1em;
-    margin-left: 10%;
-    margin-right: 10%; }
-  #index__text {
-    margin-left: 10%;
-    margin-right: 10%; }
-  .log {
-    display: none; }
-  .site__footer {
-    padding-bottom: 0; }
-  .site__footer, .copyright__text, .site__footer {
-    text-align: center; } }
+  .carousel__inner img {
+    width: 100%;
+    height: 25em; }
+  .index__text {
+    font-size: 1.1em; } }
 
 @media (max-width: 1024px) {
   .site__footer [class^=col-] {

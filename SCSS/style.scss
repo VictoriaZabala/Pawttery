@@ -57,6 +57,7 @@ text-decoration: none;
 color: white; 
 border-radius: 5px;}
 
+
 #main__carousel {
 width: 95%;
 height: 35em;
@@ -161,7 +162,7 @@ flex-direction: column;
 }
 
 .productos {
-padding: 5em;
+padding: 2em;
 display: flex;
 flex-wrap: wrap;
 }
@@ -189,6 +190,13 @@ animation-name: compra;
 animation-fill-mode: forwards;
 }
 
+@keyframes compra {
+0% {
+opacity: 0; }
+		
+100% {
+opacity: 0.2; }
+}
 @keyframes compra {
 0% {
 opacity: 0; }
@@ -358,35 +366,21 @@ height: 7em;
 }
 
 .menu ul {
-font-size: weight(xxxs);
-
-}
+font-size: weight(xxxs);}
 
 .menu__item {
 padding: 0.2em;
 }
 
-#main__carousel {
-width: 80%;
-height: 25em;
-margin-bottom: 1em;
-margin-left: 10%;
-margin-right: 10%; }
+.carousel__inner img {
+width: 100%;
+height: 25em;}
 
-#index__text {
-margin-left: 10%;
-margin-right: 10%; }
-
-.log {
-display: none; }
-
-.site__footer {
-padding-bottom:0; }
-
-.site__footer, .copyright__text,.site__footer {
-text-align:center; }
+.index__text {
+font-size: weight(xs);
 }
 
+}
 
 @media (max-width: 1024px) {
 .site__footer [class^=col-] {
