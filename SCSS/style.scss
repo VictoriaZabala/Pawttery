@@ -343,10 +343,13 @@ opacity: 0;	}
 opacity: 1;	}
 }
 
-.dona__h3 {
+.dona__h1 {
 text-align:center;
 margin-top:	3em;
 margin-bottom: 3em;
+font-family: $font-type;
+font-weight: bold;
+font-size: weight(l)
 }
 
 .dona__pago {
@@ -385,7 +388,6 @@ grid-row-end: 3;
 .dona__paypal--img {
 width: 12em;
 margin-right: .5em;
-
 }
 
 .dona__tb--img {
