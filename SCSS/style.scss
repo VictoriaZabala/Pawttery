@@ -394,11 +394,12 @@ margin-right: .5em;
 .dona__tb--img {
 align-self: center; 
 transition: transform .5s ease;
+box-shadow: 0 0 10px #efeaea;
 }
 
 .dona__tb--img:hover {
 transform: scale(1.3);
-border: $border;
+
 }
 
 .lpqmp:hover {
