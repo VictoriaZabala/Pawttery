@@ -492,6 +492,11 @@ font-size: weight(s);}
 }
 
 @media (max-width: 1024px) {
+
+.header__mobile {
+display: none;
+}
+
 .site__footer [class^=col-] {
 margin-bottom:30px }
 
