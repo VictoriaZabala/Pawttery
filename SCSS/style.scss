@@ -85,7 +85,6 @@ width: 80%;
 display: wrap;
 text-align: center;
 font-size: weight(s);
-
 font-family: $font-type;
 margin-bottom: 10%;
 }
@@ -472,7 +471,9 @@ text-decoration: none;
 color: white; 
 border-radius: 5px;}
 
-
+#main__carousel {
+height: 30em;
+margin-bottom: 1em;}
 
 .carousel__inner img {
 width: 100%;
@@ -498,6 +499,16 @@ font-size: weight(s);}
 display: none;}
 
 .header__mobile {
-font-size: weight(xs);
-}
+font-size: weight(xs);}
+
+#main__carousel {
+height: 27em;
+margin-bottom: 1em;}
+
+#index__text {
+font-size: weight(xs);}
+
+h2 {	
+font-size: weight(s);}
+
 }
