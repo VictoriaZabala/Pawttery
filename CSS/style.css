@@ -29,6 +29,7 @@
 .menu ul {
   font-family: "Poiret One", cursive;
   font-size: 2em;
+  font-weight: bold;
   list-style: none;
   display: inline-flex;
   justify-content: flex-end;
