@@ -353,6 +353,7 @@ font-size: weight(l)
 }
 
 .dona__pago {
+text-decoration: none;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
@@ -398,6 +399,29 @@ transition: transform .5s ease;
 .dona__tb--img:hover {
 transform: scale(1.3);
 border: $border;
+}
+
+.lpqmp:hover {
+text-decoration: none;
+color: $primary-color;
+}
+
+.dona__1 a {
+font-size: .6em;
+background-color: $secondary-color;
+padding: .5em;
+border-radius: 5px;
+color: #fff;
+text-decoration: none;
+}
+.dona__3 a {
+text-decoration: none;
+font-size: .6em;
+background-color: $secondary-color;
+padding: .5em;
+border-radius: 5px;
+color: #fff;
+text-decoration: none;
 }
 /*hasta acá va dona.html*/
 

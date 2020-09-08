@@ -290,6 +290,7 @@ h5, h6 {
   font-size: 2.5em; }
 
 .dona__pago {
+  text-decoration: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -328,6 +329,27 @@ h5, h6 {
 .dona__tb--img:hover {
   transform: scale(1.3);
   border: 1px solid; }
+
+.lpqmp:hover {
+  text-decoration: none;
+  color: #d9cee0; }
+
+.dona__1 a {
+  font-size: .6em;
+  background-color: #737373;
+  padding: .5em;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none; }
+
+.dona__3 a {
+  text-decoration: none;
+  font-size: .6em;
+  background-color: #737373;
+  padding: .5em;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none; }
 
 /*hasta acá va dona.html*/
 @media only screen and (max-width: 768px) {
