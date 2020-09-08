@@ -71,6 +71,7 @@ margin-right: 2.5%;
 .carousel__inner img {
 width: 100%;
 height: 100%;
+object-fit: cover;
 }
 
 #index__text {
@@ -178,6 +179,10 @@ padding: 0.5em;
 
 .tarjeta div {
 border: $border black;
+}
+
+.imagen__producto img {
+object-fit: cover;
 }
 
 h5 , h6 {
@@ -446,7 +451,8 @@ padding: 0.2em;
 
 .carousel__inner img {
 width: 100%;
-height: 25em;}
+height: 25em;
+object-fit: cover;}
 
 .index__text {
 font-size: weight(xs);
