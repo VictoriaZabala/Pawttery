@@ -369,7 +369,8 @@ h5, h6 {
     grid-gap: 1em;
     margin-top: 1em;
     font-size: 1.5em;
-    text-align: center; }
+    text-align: center;
+    width: 100vw; }
   .logo__img--mobile {
     width: 5em; }
   .menu__mobile ul {
@@ -380,7 +381,7 @@ h5, h6 {
   .menu__item--mobile {
     color: black;
     text-decoration: none;
-    padding: 0.5em; }
+    padding: 0.3em; }
   .menu__item--mobile:hover {
     background: #d9cee0;
     text-decoration: none;
@@ -399,3 +400,9 @@ h5, h6 {
     grid-gap: 1em;
     margin-top: 5em;
     font-size: 1.5em; } }
+
+@media only screen and (max-width: 480px) {
+  .header {
+    display: none; }
+  .header__mobile {
+    font-size: 1.1em; } }

@@ -448,7 +448,8 @@ grid-template-rows: 1fr;
 grid-gap: 1em;
 margin-top: 1em;
 font-size: weight(s);
-text-align: center;}
+text-align: center;
+width: 100vw;}
 
 .logo__img--mobile {
 width: 5em;}
@@ -462,7 +463,7 @@ margin-top: 1em;}
 .menu__item--mobile {
 color: black;
 text-decoration: none;
-padding: 0.5em;
+padding: 0.3em;
 }
 
 .menu__item--mobile:hover {
@@ -489,4 +490,14 @@ grid-gap: 1em;
 margin-top: 5em;
 font-size: weight(s);}
 
+}
+
+
+@media only screen and (max-width: 480px) {
+.header {
+display: none;}
+
+.header__mobile {
+font-size: weight(xs);
+}
 }
