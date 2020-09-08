@@ -490,24 +490,3 @@ margin-top: 5em;
 font-size: weight(s);}
 
 }
-
-@media (max-width: 1024px) {
-
-.header__mobile {
-display: none;
-}
-
-.site__footer [class^=col-] {
-margin-bottom:30px }
-
-.menu {
-font-size: weight(m);
-}
-#main__carousel {
-width: 90%;
-height: 25em;
-margin-bottom: 3em;
-margin-left: 5%;
-margin-right: 5%; }
-}
-
