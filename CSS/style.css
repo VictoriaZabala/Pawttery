@@ -29,7 +29,6 @@
 .menu ul {
   font-family: "Poiret One", cursive;
   font-size: 2em;
-  font-weight: bold;
   list-style: none;
   display: inline-flex;
   justify-content: flex-end;
@@ -150,7 +149,8 @@ h2 {
   flex-wrap: wrap; }
 
 .productos div {
-  display: inline-block; }
+  display: inline-block;
+  margin: auto; }
 
 .tarjeta {
   display: flex;
