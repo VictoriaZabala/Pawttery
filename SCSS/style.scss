@@ -61,7 +61,6 @@ text-decoration: none;
 color: white; 
 border-radius: 5px;}
 
-
 #main__carousel {
 width: 95%;
 height: 38em;
@@ -69,9 +68,8 @@ overflow: hidden;
 margin-bottom: 10em;
 margin-top: 5em;
 margin-left: 2.5%;
-margin-right: 2.5%;
+margin-right: 2.5%;}
 
-}
 .carousel__inner img {
 width: 100%;
 height: 100%;
@@ -621,5 +619,13 @@ padding: 0.5em;
 font-family: $font-type;
 font-weight: bold;
 }
+
+.dona__1 a {
+font-size: .4em;
+padding: .3em;}
+
+.dona__3 a {
+font-size: .4em;
+padding: .3em;}
 
 }

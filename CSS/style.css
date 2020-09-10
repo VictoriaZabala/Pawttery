@@ -456,4 +456,10 @@ h5, h6 {
     padding: 0.5em; }
   .tarjeta h5 {
     font-family: "Poiret One", cursive;
-    font-weight: bold; } }
+    font-weight: bold; }
+  .dona__1 a {
+    font-size: .4em;
+    padding: .3em; }
+  .dona__3 a {
+    font-size: .4em;
+    padding: .3em; } }
